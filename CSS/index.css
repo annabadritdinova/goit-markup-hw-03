@@ -1,0 +1,83 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+  --primary-category-color: #757575;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+
+  font-family: Roboto;
+  letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 1.14;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-size: 50px;
+}
+
+.current-link {
+  color: var(--accent-color);
+}
+
+.link {
+  color: var(--title-text-color);
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--title-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  text-align: center;
+}
+
+.feature-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  list-style: none;
+}
+
+.team {
+  text-align: center;
+}
+
+footer {
+  background-color: #2f303a;
+  color: var(--primary-white-color);
+}
+
+.info {
+  color: var(--primary-category-color);
+}
+
+.site-nav .link:hover {
+  color: tomato;
+}
+.site-nav .link:focus {
+  color: tomato;
+}
