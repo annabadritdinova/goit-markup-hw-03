@@ -25,18 +25,34 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: flex-start;
+}
+nav {
+  display: inline-flex;
 }
 .site-nav ul {
   flex-direction: row;
   list-style: none;
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  margin-right: 330px;
+  margin-left: 20px;
+  margin-top: -10px;
 }
-.list ul {
-  flex-direction: row-reverse;
-  list-style: none;
-  display: flex;
+.site-nav ul a {
+  margin-right: 20px;
 }
 
+.list ul {
+  flex-direction: row;
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+}
+.list ul a {
+  margin-right: 20px;
+}
 .logo {
   font-size: 26px;
 }
@@ -125,12 +141,18 @@ ul {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: flex-start;
-  flex-grow: 1;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.images img {
+  margin: 0 18px;
 }
 footer {
   background-color: #2f303a;
+  height: 252px;
   color: var(--primary-white-color);
+  padding-top: 60px;
+  padding-left: 215px;
 }
 
 .info {
@@ -142,4 +164,75 @@ footer {
 }
 .site-nav .link:focus {
   color: tomato;
+}
+h2 {
+  font-weight: bold;
+  text-align: center;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.section-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.section-pros li {
+  display: inline-block;
+  margin: 0 15px;
+}
+h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-pros li p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.bottom img {
+  margin-bottom: 31px;
+}
+.bottom address a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.bottom a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.section-title {
+  margin-top: 100px;
 }

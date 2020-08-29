@@ -16,7 +16,10 @@ body {
   font-size: 16px;
   line-height: 1.63;
 }
-
+.container {
+  width: 75%;
+  margin: auto;
+}
 .link {
   color: var(--title-text-color);
 }
@@ -34,6 +37,7 @@ body {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   text-align: center;
+  border-color: transparent;
 }
 
 .button.secondary {
@@ -41,6 +45,7 @@ body {
   background-color: #f5f4fa;
   border-color: #f5f4fa;
   text-align: center;
+  border-color: transparent;
 }
 
 .button {
@@ -81,4 +86,112 @@ body {
 
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.page-header {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+nav {
+  display: inline-flex;
+}
+.site-nav ul {
+  flex-direction: row;
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  margin-right: 330px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+.site-nav ul a {
+  margin-right: 20px;
+}
+
+.list ul {
+  flex-direction: row;
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+}
+.list ul a {
+  margin-right: 20px;
+}
+.logo {
+  font-size: 26px;
+}
+.bottom img {
+  margin-bottom: 31px;
+}
+.bottom address a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.bottom a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+footer {
+  background-color: #2f303a;
+  height: 252px;
+  color: var(--primary-white-color);
+  padding-top: 60px;
+  padding-left: 215px;
+  margin-top: 188px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+ul {
+  padding-left: 0px;
+}
+.buttons a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background: #f5f4fa;
+  padding: 6px 22px 6px 22px;
+  margin-right: 8px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.container main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container ul li {
+  list-style: none;
 }
