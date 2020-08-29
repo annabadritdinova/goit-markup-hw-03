@@ -9,19 +9,36 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
-
   font-family: Roboto;
   letter-spacing: 0.02em;
   font-size: 18px;
   line-height: 1.14;
 }
-
-.list {
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+.page-header {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.site-nav ul {
+  flex-direction: row;
   list-style: none;
+  display: flex;
+}
+.list ul {
+  flex-direction: row-reverse;
+  list-style: none;
+  display: flex;
 }
 
 .logo {
-  font-size: 50px;
+  font-size: 26px;
 }
 
 .current-link {
@@ -31,41 +48,86 @@ body {
 .link {
   color: var(--title-text-color);
 }
-
 .hero {
-  text-align: center;
+  width: 100%;
+  height: 600px;
+  background-color: #2f303a;
 }
-
 .hero-title {
-  color: var(--title-text-color);
-
+  color: var(--primary-white-color);
+  padding-top: 200px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 136%;
   text-align: center;
+  width: 100%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.button.primary {
+.button-primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   text-align: center;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px 10px 32px;
+  text-decoration: none;
 }
-
-.feature-list .title {
-  color: var(--title-text-color);
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+.button-wrap {
   text-align: center;
+}
+.whatwedo {
+  width: 75%;
+  margin: auto;
+}
+.whatwedo li {
   list-style: none;
 }
+.feature-list {
+  display: flex;
+  text-align: left;
+}
 
+ul {
+  padding-left: 0;
+}
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--title-text-color);
+
+  line-height: 1.14;
+  text-align: left;
+  list-style: none;
+  margin: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
 .team {
   text-align: center;
 }
-
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+}
 footer {
   background-color: #2f303a;
   color: var(--primary-white-color);
