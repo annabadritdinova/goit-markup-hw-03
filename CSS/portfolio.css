@@ -89,7 +89,6 @@ body {
 }
 
 .page-header {
-  width: 75%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -99,17 +98,28 @@ body {
 nav {
   display: inline-flex;
 }
+
+.site-nav {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 .site-nav ul {
   flex-direction: row;
   list-style: none;
   display: inline-flex;
   justify-content: center;
   margin-right: 330px;
-  margin-left: 20px;
+  margin-left: 93px;
   margin-top: -10px;
 }
 .site-nav ul a {
   margin-right: 20px;
+}
+
+.list {
+  margin-right: 215px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .list ul {
@@ -124,6 +134,9 @@ nav {
 }
 .logo {
   font-size: 26px;
+  margin-left: 215px;
+  margin-top: 25px;
+  margin-bottom: 24px;
 }
 .bottom img {
   margin-bottom: 31px;
@@ -159,6 +172,10 @@ footer {
   padding-top: 60px;
   padding-left: 215px;
   margin-top: 188px;
+}
+
+.address {
+  font-style: normal;
 }
 .buttons {
   display: flex;
