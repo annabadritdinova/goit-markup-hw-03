@@ -15,6 +15,7 @@ body {
   letter-spacing: 0.03em;
   font-size: 16px;
   line-height: 1.63;
+  margin: 0;
 }
 .container {
   width: 75%;

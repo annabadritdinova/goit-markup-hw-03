@@ -21,8 +21,9 @@ body {
 }
 
 .page-header {
-  height: 80px;
   margin: auto;
+  margin-right: 200px;
+  margin-left: 200px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -79,8 +80,9 @@ nav {
   color: var(--title-text-color);
 }
 .hero {
-  height: 600px;
   background-color: #2f303a;
+  padding-bottom: 200px;
+  padding-top: 0;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -91,6 +93,7 @@ nav {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .button-primary {
@@ -117,8 +120,6 @@ nav {
   margin-top: 93px;
   display: flex;
   text-align: left;
-  margin-left: 215px;
-  margin-right: 215px;
 }
 
 ul {
@@ -163,7 +164,7 @@ ul {
 }
 footer {
   background-color: #2f303a;
-  height: 252px;
+  margin-top: 93px;
   color: var(--primary-white-color);
   padding-top: 60px;
   padding-left: 215px;
@@ -197,14 +198,17 @@ h2 {
 }
 
 .section-pros {
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-bottom: 93px;
+  margin-bottom: -93px;
 }
 
 .section-pros li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0;
+  justify-content: space-evenly;
+}
+
+.section-pros ul {
+  justify-content: space-evenly;
 }
 h4 {
   font-weight: 500;
