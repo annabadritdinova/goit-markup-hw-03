@@ -14,16 +14,21 @@ body {
   font-size: 18px;
   line-height: 1.14;
 }
+
+main {
+  margin-bottom: 0;
+}
 .container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap-reverse;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
 .page-header {
-  margin: auto;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-left: 215px;
+  margin-right: 215px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -33,7 +38,9 @@ body {
 
 nav {
   display: inline-flex;
+  height: 80px;
 }
+
 .site-nav {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -131,6 +138,8 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 .text {
   color: var(--title-text-color);
@@ -164,9 +173,10 @@ ul {
 }
 footer {
   background-color: #2f303a;
-  margin-top: 93px;
+
   color: var(--primary-white-color);
-  padding-top: 60px;
+  padding-top: 111px;
+  padding-bottom: 60px;
   padding-left: 215px;
 }
 
@@ -197,18 +207,16 @@ h2 {
   justify-content: flex-start;
 }
 
-.section-pros {
-  margin-bottom: -93px;
-}
-
 .section-pros li {
   display: inline-block;
   margin: 0;
   justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 
 .section-pros ul {
   justify-content: space-evenly;
+  margin: 0;
 }
 h4 {
   font-weight: 500;
@@ -264,3 +272,11 @@ h4 {
 .section-title {
   margin-top: 100px;
 }
+
+
+
+  
+  
+  
+
+  
