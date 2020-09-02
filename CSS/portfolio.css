@@ -90,11 +90,11 @@ body {
 }
 
 .page-header {
-  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  text-decoration: none;
 }
 nav {
   display: inline-flex;
@@ -168,11 +168,15 @@ nav {
 }
 footer {
   background-color: #2f303a;
-  height: 252px;
+
   color: var(--primary-white-color);
-  padding-top: 60px;
+  padding-top: 111px;
+  padding-bottom: 60px;
   padding-left: 215px;
-  margin-top: 188px;
+}
+
+.end {
+  margin-bottom: 94px;
 }
 
 .address {
@@ -213,3 +217,9 @@ ul {
 .container ul li {
   list-style: none;
 }
+
+  
+
+
+  
+  
