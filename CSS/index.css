@@ -70,6 +70,7 @@ nav {
   display: inline-flex;
   justify-content: flex-end;
   margin-top: -10px;
+  margin-left: -100px;
 }
 .list ul a {
   margin-right: 20px;
