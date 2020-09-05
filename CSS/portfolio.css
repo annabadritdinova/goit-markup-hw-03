@@ -169,11 +169,15 @@ nav {
 }
 footer {
   background-color: #2f303a;
-
   color: var(--primary-white-color);
   padding-top: 111px;
   padding-bottom: 60px;
-  padding-left: 215px;
+}
+
+.bottom-content {
+  width: 1200px;
+  padding-left: 15px;
+  margin: auto;
 }
 
 .end {
